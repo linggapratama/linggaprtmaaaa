@@ -1,0 +1,154 @@
+<!DOCTIPE HTML>
+<html>
+	<head>
+	<link href= "Eksternal.css" rel="stylesheet" type="text/css">
+	<style>
+	th, td {font-size:90%;}
+	#all{ font-family:Vardana, Ariawal, Helvetica, sans-serif;}
+	.grey {background-color:grey;}
+	</style>
+	</head>
+	<body>		
+		<table>
+		<tbody>
+			<tr>
+				<td style="width:25%" align="center" id="all"> <b> RAHASIA <b> </td>
+				<td rowspan="3" style="width:50%" align="center"> <img src="https://kkp.go.id/an-theme/main/images/material-logo-2021.png" width="20%" height="20%" " align="center"> </td>
+				<td style="width:25%" align="center" id="all"> <b> DATA KP-PT-B <b> </td>
+			</tr>
+			<tr>
+				<td> </td>
+				<td> </td>
+			</tr>
+			<tr>
+				<td> </td>
+				<td> </td>
+			</tr>
+			<tr>
+				<td> </td>
+				<td rowspan="2" align="center" id="all"> <b> KUESIONER PENDATAAN<BR>PRODUKSI PERIKANAN TANGKAP <b> </td>
+				<td> </td>
+			</tr>
+			<tr>
+				<td> </td>
+				<td> </td>
+			</tr>
+			<tr>
+				<td> </td>
+				<td> </td>
+				<td> </td>
+			</tr>
+			<tr>
+				<td colspan="3" align="center" id="all" class="grey"> <b> BlOK 2: IDENTITAS USAHA <b> </td>
+			</tr>
+			<tr>
+				<td id="all"> 201. Nama RTP/Perusahaan Perikanan </td>
+				<td colspan="2" id="all"> : <input type="text" name="namaprshn"> </td>
+			</tr>
+			<tr>
+				<td id="all"> 202. Nomor Induk Kependudukan (NIK)/SIUP </td>
+				<td colspan="2" id="all"> : <input type="text" name="nik/siup"> </td>
+			</tr>
+			<tr>
+				<td id="all"> 203. Jenis Usaha </td>
+				<td colspan="2" id="all"> :
+				<input type="radio" id="pil" name="Jenis_Usaha" value="PIL">
+				<label for="pil"> 1. Penangkapan Ikan di Laut <b> (Langsung ke 205) </b> </label>
+				<input type="radio" id="pipu" name="Jenis_Usaha" value="PIPU">
+				<label for="pipu"> 2. Penangkapan Ikan di Perairan Umum </label><br>
+				</td>
+			</tr>
+			<tr>
+				<td id="all"> 204. a. Jenis Perairan <br>
+					b. Nama Ekosistem
+				</td>
+				<td colspan="3" id="all"> : <br>
+				<input type="radio" id="s" name="Jenis_Perairan" value="S">
+				<label for="s"> 1. Sungai </label>
+				<input type="radio" id="d" name="Jenis_Perairan" value="D">
+				<label for="d"> 2. Danau </label>
+				<input type="radio" id="w" name="Jenis_Perairan" value="W">
+				<label for="w"> 3. Waduk </label>
+				<input type="radio" id="r" name="Jenis_Perairan" value="R">
+				<label for="r"> 4. Rawa </label>
+				<input type="radio" id="g" name="Jenis_Perairan" value="G">
+				<label for="g"> 5. Genangan Air Lainnya </label><br>
+				: <input type="text" name="namaeksstm">
+				</td>
+			</tr>
+			<tr>
+				<td id="all"> 205. Sarana Penangkapan </td>
+				<td colspan="2" id="all"> :
+				<input type="radio" id="tp" name="Sarana_Penangkapan" value="TP">
+				<label for="tp"> 1. Tanpa Perahu </label>
+				<input type="radio" id="ptm" name="Sarana_Penangkapan" value="PTM">
+				<label for="ptm"> 2. Perahu Tanpa Motor </label>
+				<input type="radio" id="pmt" name="Sarana_Penangkapan" value="PMT">
+				<label for="pmt"> 3. Perahu Motor Tempel </label>
+				<input type="radio" id="km" name="Sarana_Penangkapan" value="KM">
+				<label for="km"> 3. Kapal Motor </label>
+				</td>
+			</tr>
+			<tr>
+				<td id="all"> 206. Ukuran Perahu/Kapal <br>
+					a. Perahu Motor Tempel <br>
+					b. Kapal Motor
+				</td>
+				<td colspan="2" id="all"> : <br>
+				: <input type="text" name="prhmtrtmpl"> <br>
+				: <input type="text" name="kplmtr">
+				</td>
+			</tr>
+			<tr>
+				<td id="all"> 207. Jumlah ABK </td>
+				<td colspan="2" id="all"> : <input type="text" name="jmlhabk"> </td>
+			</tr>
+			<tr>
+				<td id="all"> 208. Jenis Alat Tangkap <br>
+				a. Alat Tangkap Utama <br>
+				b. Alat Tangkap Tambahan </td>
+				<td colspan="2" id="all"> : <br>
+				: <input type="text" name="atu">
+				Jumlah <input type="number" id="quantity" name="quantity" min="0" max="500.000"> <br>
+				: <input type="text" name="att">
+				Jumlah <input type="number" id="quantity" name="quantity" min="0" max="500.000">
+				</td>
+			</tr>
+			<tr>
+				<td id="all"> 209. Wilayah Peangkapan Ikan </td>
+				<td colspan="2" id="all"> : <input type="text" name="wpi"> </td>
+			</tr>
+			<tr>
+				<td id="all"> 210. Daerah Operasi Penangkapan (Perairan) </td>
+				<td colspan="2" id="all"> : <br>
+				1. <input type="text" name="dop1"> <br>
+				2. <input type="text" name="dop2"> 
+				</td>
+			</tr>
+			<tr>
+				<td id="all"> 211. Daerah Asal Unit Penangkapan Ikan </td>
+				<td colspan="2" id="all"> :
+				<input type="radio" id="dka" name="Daerah_Asal_Unit_Penangkapan_Ikan" value="DKA">
+				<label for="dka"> 1. dari Kabupaten Asal </label>
+				<input type="radio" id="dkl" name="Daerah_Asal_Unit_Penangkapan_Ikan" value="DKL">
+				<label for="dkl"> 2. dari Kabupaten Lain </label> <br>
+				(Sebutkan: <input type="text" name="SBTKN">)
+				</td>
+			</tr>
+			<tr>
+				<td colspan="3" id="all">
+				<p> a) Jenis Perairan diisi apabila melakukan usaha penangkapan ikan di Perairan Umum <br>
+				<p> b) Hanya Untuk Jenis Perairan Umum/PUD, khusus untuk Sungai, Danau, dan Waduk, Nama Ekosistem mengikuti kode yang sesuai <br>
+				<p> c) WPP diisi apabila melakukan usaha penangkpan ikan di laut, jika melakukan penangkapan lebih dari satu WPP, data produksi dicatat di kuesioner baru
+				</td>
+			</tr>
+			<tr>
+			<td align="left" id="all"> <a href="Formulir.html" class="previous">&laquo; Previous</a>
+			</td>
+			<td align="center" id="all"> <input type="Reset" name="reset" value="Ulangi"> <input type="submit" ame="submit" value="Submit"> </td>
+			<td align="right" id="all"> <a href="Formulir3.html" class="next"> Next &raquo;</a> </td>
+			</tr>
+			</tbody>
+		</table>
+	</body>
+</html>

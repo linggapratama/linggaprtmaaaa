@@ -1,0 +1,13 @@
+/*Dokumen CSS*/
+
+	th, td {
+	font-size:90%;
+	}
+	
+	#all{ 
+	font-family:Vardana, Ariawal, Helvetica, sans-serif;
+	}
+	
+	.grey {
+	background-color:grey;
+	}
