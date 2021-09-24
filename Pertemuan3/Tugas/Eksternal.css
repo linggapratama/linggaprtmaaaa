@@ -1,0 +1,13 @@
+/*Dokumen CSS*/
+
+	p, ol, ul {
+	font-size:18px;
+	}
+	
+	#all{ 
+	font-family:Vardana, Ariawal, Helvetica, sans-serif;
+	}
+	
+	.beige {
+	background-color:beige;
+	}
